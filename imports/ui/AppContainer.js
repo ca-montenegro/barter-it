@@ -12,6 +12,9 @@ class AppContainer extends Component {
         <Header />
         <main>
           <Switch>
+	    {/* Para que es este switch? 
+	    Sería bueno poner un component Footer y que este component se ajuste al final de la página al renderizar.
+	    */}
           {
             /*
 

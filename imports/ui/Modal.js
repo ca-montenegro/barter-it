@@ -29,6 +29,8 @@ export default class Modal extends Component
     });
   }
   renderFooter(){
+    
+    //Pueden hacer el footer en un component aparte. Facilitaría que el footer se quede estático en la parte inferior de la pantalla.
     if(this.props.responded)
     {
       return <div className="modal-footer">
